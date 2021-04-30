@@ -16,9 +16,9 @@ float: 'right'
     float: "right",
     width: "90px",
     height: "90px",
-    backgroundColor: "#242d38",
-    color: '#efd592',
-    stroke: '#efd592',
+    backgroundColor: "green",
+    color: 'white',
+    stroke: 'white',
     '&:hover': {
       color: "#242d38",
       stroke: "#242d38",
@@ -52,9 +52,9 @@ float: 'right'
 });
 
 const options = [
-  'Home',
-  'Blog',
-  'Stg'
+  'Vmi1',
+  'Vmi2',
+  'Vmi3'
 ]
 
 function MenuH() {

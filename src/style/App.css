@@ -22,4 +22,73 @@ body,
   height: 100vh;
   width: 100vw;
 }
+
+.App form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.App form h1 {
+  margin-bottom: 20px;
+  color: green;
+}
+
+.App form input {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.App form input[type=submit] {
+  width: 30%;
+  background-color: green;
+  color: white;
+  padding: 40px 20px;
+  margin: 38px 0;
+  border: 1px solid white;
+  letter-spacing: 2px;
+}
+
+.App form ::-webkit-input-placeholder {
+  float: left;
+  color: green;
+  font-size: 16px;
+}
+
+.App form :-ms-input-placeholder {
+  float: left;
+  color: green;
+  font-size: 16px;
+}
+
+.App form ::-ms-input-placeholder {
+  float: left;
+  color: green;
+  font-size: 16px;
+}
+
+.App form ::placeholder {
+  float: left;
+  color: green;
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  input {
+    margin-top: 20px;
+  }
+  input[type=submit] {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=App.css.map */
