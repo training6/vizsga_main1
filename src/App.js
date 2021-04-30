@@ -14,7 +14,6 @@ function App() {
           <div className='check'>
           <input type="checkbox"/>
           <label className="container">Elolvastam és elfogadom az <span className="adatk">Adatkezelési Tájékoztatót.</span>
-            
             <span className="checkmark"></span>
           </label>
           </div>
