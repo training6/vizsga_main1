@@ -1,0 +1,15 @@
+@import './reset';
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background: $color2;
+  height: 100vh;
+  width: 100vw;
+
+ 
+}

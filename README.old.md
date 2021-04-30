@@ -1,1 +1,0 @@
-# vizsga_main1
